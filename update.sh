@@ -38,7 +38,7 @@ fun_bar() {
 res1() {
     wget https://raw.githubusercontent.com/titis69/gantipsswd/main/Cdy/menu.zip
     wget -q -O /usr/bin/enc "https://raw.githubusercontent.com/titis69/gantipsswd/main/Enc/encrypt" ; chmod +x /usr/bin/enc
-    7z x -p@denisa32 menu.zip
+    7z x -p@berlian69 menu.zip
     chmod +x menu/*
     mv menu/* /usr/local/sbin
     rm -rf menu
