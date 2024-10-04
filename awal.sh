@@ -530,7 +530,7 @@ systemctl daemon-reload
 mkdir -p /usr/local/kyt/
 wget -q -O /usr/local/kyt/udp-mini "${REPO}Fls/udp-mini"
 chmod +x /usr/local/
-kyt/udp-mini
+#kyt/udp-mini
 chmod +x /usr/local/kyt/*
 wget -q -O /etc/systemd/system/udp-mini-1.service "${REPO}Fls/udp-mini-1.service"
 wget -q -O /etc/systemd/system/udp-mini-2.service "${REPO}Fls/udp-mini-2.service"
