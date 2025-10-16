@@ -664,8 +664,8 @@ fi
 clear
 echo "Banner /etc/banner.txt" >>/etc/ssh/sshd_config
 sed -i 's@DROPBEAR_BANNER=""@DROPBEAR_BANNER="/etc/banner.txt"@g' /etc/default/dropbear
-# wget -O /etc/banner.txt "${REPO}Bnr/issue.net"
-wget -O /etc/banner.txt://raw.githubusercontent.com/titis69/gantipsswd/main/Bnr/issue.net
+wget -O /etc/banner.txt "${REPO}Bnr/issue.net"
+# wget -O /etc/banner.txt://raw.githubusercontent.com/titis69/gantipsswd/main/Bnr/issue.net
 print_success "Fail2ban"
 }
 function ins_epro(){
